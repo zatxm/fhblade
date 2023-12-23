@@ -1,4 +1,4 @@
-module fhblade
+module github.com/zatxm/fhblade
 
 go 1.21.3
 
@@ -9,7 +9,6 @@ require (
 	github.com/json-iterator/go v1.1.12
 	github.com/pkg/errors v0.9.1
 	github.com/ugorji/go/codec v1.2.12
-	github.com/zatxm/fhblade v0.0.0-20231223055644-457682e4d304
 	go.uber.org/zap v1.26.0
 	google.golang.org/protobuf v1.32.0
 	gopkg.in/yaml.v3 v3.0.1
