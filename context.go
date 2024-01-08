@@ -2,7 +2,6 @@ package fhblade
 
 import (
 	"bytes"
-	stdContext "context"
 	"errors"
 	"io"
 	"io/ioutil"
@@ -18,7 +17,6 @@ import (
 	http "github.com/bogdanfinn/fhttp"
 	"github.com/zatxm/fhblade/binding"
 	"github.com/zatxm/fhblade/tools"
-	"go.uber.org/zap"
 )
 
 const (
